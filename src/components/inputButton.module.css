@@ -1,0 +1,32 @@
+.inputButton {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0.5rem;
+}
+.inputButton input {
+  padding: 1rem;
+  background-color: var(--gray-400);
+  border: none;
+  border-radius: 8px;
+  flex-grow: 8;
+  outline: none;
+  color: var(--gray-200);
+}
+.inputButton button {
+  padding: 1rem;
+  background-color: var(--blue-dark);
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: bold;
+  display: flex;
+  gap: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+.inputButton button:hover {
+  background-color: var(--blue);
+}

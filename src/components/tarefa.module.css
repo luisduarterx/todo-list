@@ -1,0 +1,42 @@
+.tarefa {
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  color: var(--white);
+  font-weight: lighter;
+  font-size: 0.85rem;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.tarefa input[type="checkbox"] {
+  display: none;
+}
+.tarefa img {
+  min-width: 1rem;
+}
+.active {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+}
+.textDashed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+.tarefa span {
+  flex-grow: 8;
+}
+.disabled {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+}
+.tarefa .checkView {
+  min-width: 1.2rem;
+  min-height: 1.2rem;
+  text-align: center;
+  border-radius: 50px;
+}
+.checkView img {
+  width: 5px;
+}
